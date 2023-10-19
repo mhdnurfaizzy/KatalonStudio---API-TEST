@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RUN All Test" time="7.58" tests="4" failures="0" errors="0">
+   <testsuite name="RUN All Test" tests="4" failures="0" errors="0" time="7.58" skipped="0" timestamp="2023-10-19 22:05:29" hostname="muhammad.nurfaizi - BA-00018037" id="Test Suites/RUN All Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\muhammad.nurfaizi\\git\\KatalonStudio---API-TESTING\\Reports\\20231019_220526\\RUN All Test\\20231019_220526"/>
+         <property name="logFiles" value="C:\\Users\\muhammad.nurfaizi\\git\\KatalonStudio---API-TESTING\\Reports\\20231019_220526\\RUN All Test\\20231019_220526\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="muhammad.nurfaizi - BA-00018037"/>
+         <property name="hostAddress" value="10.225.219.221"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+      </properties>
+      <testcase name="Test Cases/GET - List Users" time="3.892" classname="Test Cases/GET - List Users" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:05:30 - [TEST_CASE][PASSED] - Test Cases/GET - List Users: Test Cases/GET - List Users
+
+2023-10-19 22:05:30 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("GET - List Users")): Send request successfully
+
+2023-10-19 22:05:33 - [MESSAGE][INFO] - HAR: C:\Users\muhammad.nurfaizi\git\KatalonStudio---API-TESTING\Reports\20231019_220526\RUN All Test\20231019_220526\requests\main\0.har
+
+2023-10-19 22:05:33 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-19 22:05:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2023-10-19 22:05:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-19 22:05:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "page", 1): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "per_page", 6): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "total_pages", 2): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "total", 12): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GET - Single User" time="0.932" classname="Test Cases/GET - Single User" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:05:34 - [TEST_CASE][PASSED] - Test Cases/GET - Single User: Test Cases/GET - Single User
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("GET - Single User")): Send request successfully
+
+2023-10-19 22:05:34 - [MESSAGE][INFO] - HAR: C:\Users\muhammad.nurfaizi\git\KatalonStudio---API-TESTING\Reports\20231019_220526\RUN All Test\20231019_220526\requests\main\1.har
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.id", 2): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.email", "janet.weaver@reqres.in"): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.first_name", "Janet"): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.last_name", "Weaver"): Verify element property value successfully
+
+2023-10-19 22:05:34 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.avatar", "https://reqres.in/img/faces/2-image.jpg"): Verify element property value successfully
+
+2023-10-19 22:05:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "support.url", "https://reqres.in/#support-heading"): Verify element property value successfully
+
+2023-10-19 22:05:35 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "support.text", "To keep ReqRes free, contributions towards server costs are appreciated!"): Verify element property value successfully
+
+2023-10-19 22:05:35 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PUT - Update" time="1.108" classname="Test Cases/PUT - Update" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:05:35 - [TEST_CASE][PASSED] - Test Cases/PUT - Update: Test Cases/PUT - Update
+
+2023-10-19 22:05:35 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("PUT - Update")): Send request successfully
+
+2023-10-19 22:05:36 - [MESSAGE][INFO] - HAR: C:\Users\muhammad.nurfaizi\git\KatalonStudio---API-TESTING\Reports\20231019_220526\RUN All Test\20231019_220526\requests\main\2.har
+
+2023-10-19 22:05:36 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-19 22:05:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2023-10-19 22:05:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-19 22:05:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "name", "Itzy"): Verify element property value successfully
+
+2023-10-19 22:05:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "job", "Uranus"): Verify element property value successfully
+
+2023-10-19 22:05:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REGISTER - Success" time="1.29" classname="Test Cases/REGISTER - Success" status="PASSED">
+         <system-out><![CDATA[2023-10-19 22:05:36 - [TEST_CASE][PASSED] - Test Cases/REGISTER - Success: Test Cases/REGISTER - Success
+
+2023-10-19 22:05:36 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("REGISTER - Success")): Send request successfully
+
+2023-10-19 22:05:37 - [MESSAGE][INFO] - HAR: C:\Users\muhammad.nurfaizi\git\KatalonStudio---API-TESTING\Reports\20231019_220526\RUN All Test\20231019_220526\requests\main\3.har
+
+2023-10-19 22:05:37 - [MESSAGE][PASSED] - Send request successfully
+
+2023-10-19 22:05:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2023-10-19 22:05:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2023-10-19 22:05:37 - [TEST_STEP][PASSED] - id_register = getElementPropertyValue(Response, "id"): null
+
+2023-10-19 22:05:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "id", id_register): Verify element property value successfully
+
+2023-10-19 22:05:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2023-10-19 22:05:37 - [TEST_STEP][PASSED] - token_register = getElementPropertyValue(Response, "token"): null
+
+2023-10-19 22:05:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "token", token_register): Verify element property value successfully
+
+2023-10-19 22:05:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-19 22:05:29 - [TEST_SUITE][PASSED] - RUN All Test: Test Cases/REGISTER - Success]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
