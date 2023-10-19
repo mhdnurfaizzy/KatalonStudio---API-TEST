@@ -22,7 +22,7 @@ Response = WS.sendRequest(findTestObject('GET - List Users'))
 
 WS.verifyResponseStatusCode(Response, 200)
 
-WS.verifyElementPropertyValue(Response, 'page', 2)
+WS.verifyElementPropertyValue(Response, 'page', 1)
 
 WS.verifyElementPropertyValue(Response, 'per_page', 6)
 
